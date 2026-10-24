@@ -1,0 +1,38 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments -------------------------------------------------
+venv/
+.venv/
+env/
+
+# --- Generated data & model artefacts -------------------------------------
+# Everything under data/ is reproducible from the generator + training
+# pipeline, and the raw telemetry is ~2 GB. Never commit it.
+data/
+!data/.gitkeep
+*.parquet
+*.npz
+*.pt
+*.pth
+
+# --- Local secrets / config ----------------------------------------------
+.env
+.env.*
+.streamlit/secrets.toml
+
+# --- OS / editor ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
