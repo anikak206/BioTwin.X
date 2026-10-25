@@ -49,21 +49,10 @@ Cardiometabolic Prognosis**
 
 ## 2. Team & institution
 
-**Team name:** Team BioTwin.X
-**Institution:** Vellore Institute of Technology (VIT), Vellore
+**Team name:** Team BioTwin.X  
+**Institution:** Vellore Institute of Technology (VIT), Vellore  
+**Team Members:** Anika Kumar (1 member)  
 **Contact:** [anikak206@gmail.com](mailto:anikak206@gmail.com)
-
-| # | Member | Role | Institution |
-|---|--------|------|-------------|
-| 1 | **Anika Kumar** | Team lead · CMCL architecture · inference engine · clinical console | VIT Vellore |
-| 2 | _<Member 2>_ | Synthetic physiology generator · signal processing (HRV/CGM) | _<University / Department>_ |
-| 3 | _<Member 3>_ | Evaluation harness · calibration · ablations & baselines | _<University / Department>_ |
-| 4 | _<Member 4>_ | Product, clinical workflow, documentation, demo production | _<University / Department>_ |
-
-> Replace the italicised placeholders with the remaining team members before
-> final submission. Roles reflect the actual module ownership in this
-> repository (`synthetic_generator.py`, `src/biotwin/features.py`,
-> `scripts/train_pipeline.py`, `app.py`).
 
 ---
 
